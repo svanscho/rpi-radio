@@ -1,0 +1,74 @@
+{
+  "stations": [
+    {
+      "title": "Studio Brussel",
+      "img": "img/stubru.png",
+      "url": "http://icecast.vrtcdn.be/stubru-high.mp3"
+    },
+    {
+      "title": "Radio 1",
+      "img": "img/radio1.png",
+      "url": "http://icecast.vrtcdn.be/radio1-high.mp3"
+    },
+    {
+      "title": "Joe FM",
+      "img": "img/joefm.jpg",
+      "url": "http://icecast.vrtcdn.be/klara-high.mp3"
+    },
+    {
+      "title": "Q-music",
+      "img": "img/qmusic.jpg",
+      "url": "http://mp3streaming.q-music.be/QBE_MP3_HI.m3u"
+    },
+    {
+      "title": "Klara",
+      "img": "img/klara.png",
+      "url": "http://icecast.vrtcdn.be/klara-high.mp3"
+    },
+    {
+      "title": "MNM",
+      "img": "img/mnm.png",
+      "url": "http://icecast.vrtcdn.be/mnm-high.mp3"
+    },
+    {
+      "title": "MNM hits",
+      "img": "img/mnm-hits.png",
+      "url": "http://icecast.vrtcdn.be/mnm_hits-high.mp3"
+    },
+    {
+      "title": "VRT NWS",
+      "img": "img/vrt-nws.png",
+      "url": "http://progressive-audio.lwc.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3"
+    },
+    {
+      "title": "Ketnet Hits",
+      "img": "img/ketnet-hits.png",
+      "url": "http://icecast.vrtcdn.be/ketnetradio-high.mp3"
+    },
+    {
+      "title": "Radio 2 Antwerpen",
+      "img": "img/radio2.png",
+      "url": "http://icecast.vrtcdn.be/ra2ant-high.mp3"
+    },    
+    {
+      "title": "Radio 2 Limburg",
+      "img": "img/radio2.png",
+      "url": "http://icecast.vrtcdn.be/ra2lim-high.mp3"
+    },
+    {
+      "title": "Radio 2 Oost-Vlaanderen",
+      "img": "img/radio2.png",
+      "url": "hhttp://icecast.vrtcdn.be/ra2ovl-high.mp3"
+    },
+    {
+      "title": "Radio 2 Vlaams Brabant",
+      "img": "img/radio2.png",
+      "url": "http://icecast.vrtcdn.be/ra2vlb-high.mp3"
+    },
+    {
+      "title": "Radio 2 West-Vlaanderen",
+      "img": "img/radio2.png",
+      "url": "http://icecast.vrtcdn.be/ra2wvl-high.mp3"
+    }
+  ]
+}
