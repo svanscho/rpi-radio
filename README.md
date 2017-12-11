@@ -10,7 +10,7 @@ This docker container image leverages mpd under the hood and is written in nodej
 - a raspberry pi (tested on RPi2)
 - docker (install with `curl -sSL https://get.docker.com | sh`)
 ### Examples
-- `docker run -d --device=/dev/snd:/dev/snd --net=host svanscho/rpi-radio`
+- `docker run -d --device=/dev/snd:/dev/snd svanscho/rpi-radio`
 
 If you want the container to always run (even when the RPi rebooted):
-- `docker run -d --restart=always --device=/dev/snd:/dev/snd --net=host svanscho/rpi-radio` (mind the **--restart=always**)
+- `docker run -d --restart=always --device=/dev/snd:/dev/snd svanscho/rpi-radio` (mind the **--restart=always**)
