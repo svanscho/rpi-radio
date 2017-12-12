@@ -8,5 +8,5 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 RUN sudo apt-get install nodejs
 ADD app /app
 RUN cd /app && npm install 
-CMD sudo service mpd start && cd /app && node index.js
+CMD sudo service mpd start && cd /app && node api.js
 EXPOSE 2612
