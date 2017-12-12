@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: docker:17.05.0-ce-git
+      - image: multiarch/debian-debootstrap:armhf-jessie
 
     steps:
       - checkout
@@ -19,7 +19,7 @@ jobs:
       - run: |
           TAG=0.1.$CIRCLE_BUILD_NUM
           docker run --rm --privileged multiarch/qemu-user-static:register --reset
-          docker run -it --rm multiarch/debian-debootstrap:armhf-jessie
+          wget --no-check-certificate -O - https://get.docker.com | sh
           docker build -t svanscho/rpi-radio:$TAG .
           docker login -u $DOCKER_USER -p $DOCKER_PASS
           docker push svanscho/rpi-radio:$TAG
