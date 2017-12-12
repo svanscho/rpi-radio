@@ -13,12 +13,17 @@
     {
       "title": "Joe FM",
       "img": "img/be/joefm.jpg",
-      "url": "http://icecast.vrtcdn.be/klara-high.mp3"
+      "url": "http://icecast-qmusic.cdp.triple-it.nl/JOEfm_be_live_128.mp3"
     },
     {
       "title": "Q-music",
       "img": "img/be/qmusic.jpg",
-      "url": "http://mp3streaming.q-music.be/QBE_MP3_HI.m3u"
+      "url": "http://icecast-qmusic.cdp.triple-it.nl/Qmusic_be_live_128.mp3"
+    },
+    {
+      "title": "Zen FM",
+      "img": "img/be/zenfm.png",
+      "url": "http://lb.zenfm.be/zenfm.mp3"
     },
     {
       "title": "Klara",
@@ -39,6 +44,11 @@
       "title": "VRT NWS",
       "img": "img/be/vrt-nws.jpg",
       "url": "http://progressive-audio.lwc.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3"
+    },
+    {
+      "title": "Nostalgie",
+      "img": "img/be/nostalgie.png",
+      "url": "http://nostalgiewhatafeeling.ice.infomaniak.ch/nostalgiewhatafeeling-128.mp3"
     },
     {
       "title": "Ketnet Hits",
