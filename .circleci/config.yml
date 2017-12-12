@@ -18,7 +18,7 @@ jobs:
       # build and push Docker image
       - run: |
           TAG=0.1.$CIRCLE_BUILD_NUM
-          docker run -it --rm multiarch/debian-debootstrap:armhf-jessie --reset
+          docker run -it --rm multiarch/debian-debootstrap:armhf-jessie
           docker build -t svanscho/rpi-radio:$TAG .
           docker login -u $DOCKER_USER -p $DOCKER_PASS
           docker push svanscho/rpi-radio:$TAG
