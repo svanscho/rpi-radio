@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: multiarch/debian-debootstrap:armhf-jessie
+      - image: hypriot/rpi-alpine
 
     steps:
       - checkout
