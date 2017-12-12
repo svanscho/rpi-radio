@@ -15,4 +15,4 @@ RPi radio leverages mpd under the hood and is written in nodejs.
 If you want the container to always run (even when the RPi rebooted):
 - `docker run -d --restart=always --device=/dev/snd:/dev/snd -p 2612:2612 svanscho/rpi-radio` (mind the **--restart=always**)
 
-Then visit http://<rpi-address>:2612 and e.g. add shortcut to your Android home screen. The app will be fullscreen and behave like a normal application.
+Then visit `http://rpi-address>:2612` and e.g. add shortcut to your Android home screen. The app will be fullscreen and behave like a normal application.
