@@ -3,6 +3,8 @@ This app runs a docker based headless radio player on the pi that can be remote-
 
 RPi radio leverages mpd under the hood and is written in nodejs.
 
+[Dockerhub](https://hub.docker.com/r/svanscho/rpi-radio/): [![](https://images.microbadger.com/badges/version/svanscho/rpi-radio.svg)](https://microbadger.com/images/svanscho/rpi-radio "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/svanscho/rpi-radio.svg)](https://microbadger.com/images/svanscho/rpi-radio "Get your own image badge on microbadger.com") 
+
 ### Screenshots
 <img src="screenshot.png" width="200">
 
