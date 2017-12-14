@@ -22,4 +22,5 @@ jobs:
           docker build -t svanscho/rpi-radio:$TAG .
           docker login -u $DOCKER_USER -p $DOCKER_PASS
           docker push svanscho/rpi-radio:$TAG
-          docker push svanscho/rpi-radio:$TAG svanscho/rpi-radio:latest
+          docker tag svanscho/rpi-radio:$TAG svanscho/rpi-radio:latest
+          docker push svanscho/rpi-radio:latest
