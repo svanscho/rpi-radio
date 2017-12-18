@@ -7,6 +7,7 @@ var mpc = new MPC();
 
 mpc.connectTCP('localhost', 6600).then(function(result) {
   console.log("Connected to MPC.");
+  mpc.playbackOptions.setRepeat(true); //e.g. for reconnecting when a stream gets lost
 }, function(err) {
   console.log("Cannot connect to MPC: "+err.message);
   process.exit(1)
